@@ -1,0 +1,12 @@
+.SubFooter {
+  height: 30vh;
+  background-color: #3b3054;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
