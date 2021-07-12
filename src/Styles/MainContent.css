@@ -1,5 +1,5 @@
 .MainContent {
-  margin-top: 100px;
+  margin-top: 55px;
 }
 
 .MainContent-title {
@@ -17,3 +17,7 @@
   display: flex;
   margin: 100px 0;
 }
+
+/* .MainContent-cards:nth-child(2) {
+  transform: translateY(40px);
+} */

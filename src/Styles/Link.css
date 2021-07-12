@@ -1,0 +1,27 @@
+.Link {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+.Link-long {
+  color: #232127;
+  padding-left: 70px;
+}
+
+.Link-short {
+  padding-right: 70px;
+}
+.Link-short > span {
+  color: #2acfcf;
+  padding-right: 35px;
+}
+
+.Link-short > button {
+  border-radius: 5px;
+}
