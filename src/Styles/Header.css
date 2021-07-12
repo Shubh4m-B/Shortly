@@ -4,10 +4,10 @@
   align-items: center;
   width: 100%;
   /* background-color: antiquewhite; */
-  height: 40em;
+  min-height: 40em;
 }
 
-.container {
+.Header-container {
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -55,4 +55,23 @@ button {
   border: none;
   border-radius: 50px;
   margin: 30px 0;
+}
+
+@media screen and (max-width: 750px) {
+  .Header-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .Header-img {
+    width: 100%;
+  }
+  .Header-content {
+    align-items: center;
+    text-align: center;
+  }
+  .Header-title {
+    margin-top: 40px;
+    font-size: 50px;
+    line-height: normal;
+  }
 }

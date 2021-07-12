@@ -34,7 +34,7 @@
 }
 
 .NavBar-right {
-  width: 15%;
+  width: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,4 +53,28 @@
   border: none;
   border-radius: 50px;
   cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .NavBar-container {
+    justify-content: space-between;
+  }
+  .NavBar-left > li,
+  .NavBar-right > li {
+    display: none;
+  }
+  .NavBar-right {
+    flex-direction: row-reverse;
+  }
+  .NavBar-right > button {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    font-size: 30px;
+  }
 }

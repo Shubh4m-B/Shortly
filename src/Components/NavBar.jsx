@@ -14,6 +14,7 @@ export default function NavBar() {
                 <div className="NavBar-right">
                     <li>Login</li>
                     <button>Sign Up</button>
+                    <i class="fas fa-bars hamburger"></i>
                 </div>
             </div>
         </div>
