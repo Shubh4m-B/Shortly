@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   color: white;
-  height: 35vh;
+  min-height: 35vh;
 }
 
 .container {
@@ -43,4 +43,21 @@ a > i {
 
 a > i:hover {
   color: #2acfcf;
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .Footer-section {
+    margin: 20px 0;
+  }
+  .Footer-icons {
+    width: 60%;
+    margin-top: 20px;
+  }
 }

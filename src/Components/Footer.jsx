@@ -8,19 +8,19 @@ export default function Footer() {
                 <div style={{ width: "25%" }}>
                     <h1>Shortly</h1>
                 </div>
-                <div>
+                <div className="Footer-section">
                     <li>Features</li>
                     <li><a href="#">Link Shortening</a></li>
                     <li><a href="#">Branded Links</a></li>
                     <li><a href="#">Analytics</a></li>
                 </div>
-                <div>
+                <div className="Footer-section">
                     <li>Resources</li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Developers</a></li>
                     <li><a href="#">Support</a></li>
                 </div>
-                <div>
+                <div className="Footer-section">
                     <li>Company</li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Our Team</a></li>
