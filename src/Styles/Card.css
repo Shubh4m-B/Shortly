@@ -31,3 +31,23 @@
 .Card-text {
   color: #919191;
 }
+
+@media screen and (max-width: 1000px) {
+  .Card {
+    height: 200px;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+  }
+  .Card-content {
+    transform: translateY(-30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .Card-img {
+    min-height: 80px;
+    margin-bottom: 10px;
+  }
+}

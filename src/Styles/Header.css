@@ -5,6 +5,7 @@
   width: 100%;
   /* background-color: antiquewhite; */
   min-height: 40em;
+  overflow-x: hidden;
 }
 
 .Header-container {

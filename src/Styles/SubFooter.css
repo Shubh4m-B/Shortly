@@ -10,3 +10,17 @@
   flex-direction: column;
   color: white;
 }
+
+@media screen and (max-width: 1200px) {
+  .SubFooter {
+    background-size: 300%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .SubFooter {
+    background-size: 400%;
+    text-align: center;
+    height: 40vh;
+  }
+}

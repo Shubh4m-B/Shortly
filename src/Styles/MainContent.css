@@ -21,3 +21,23 @@
 /* .MainContent-cards:nth-child(2) {
   transform: translateY(40px);
 } */
+
+@media screen and (max-width: 1000px) {
+  .MainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .MainContent-cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .MainContent-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+}
