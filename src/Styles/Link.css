@@ -10,6 +10,7 @@
 }
 
 .Link-long {
+  width: 50%;
   color: #232127;
   padding-left: 70px;
 }
@@ -24,4 +25,10 @@
 
 .Link-short > button {
   border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.Link-short > button:hover {
+  background-color: #5ff3f3;
 }

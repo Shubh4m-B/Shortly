@@ -21,8 +21,8 @@ export default function Form() {
             link: link,
             short: res.data.result.full_short_link
         }
-        console.log(newLink);
         setLinks(links => [...links, newLink]);
+        setLink("")
     }
 
     return (

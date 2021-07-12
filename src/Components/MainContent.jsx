@@ -20,7 +20,7 @@ export class MainContent extends Component {
 
                 <div className="MainContent-cards">
                     {this.state.cardData.map((data) => (
-                        <Card title={data.title} text={data.text} src={data.src} />
+                        <Card title={data.title} text={data.text} src={data.src} translate={data.translate} />
                     ))}
                 </div>
             </div>
