@@ -1,0 +1,19 @@
+.MainContent {
+  margin-top: 100px;
+}
+
+.MainContent-title {
+  color: #34313d;
+  text-align: center;
+}
+
+.MainContent-text {
+  color: #919191;
+  font-size: 18px;
+  text-align: center;
+}
+
+.MainContent-cards {
+  display: flex;
+  margin: 100px 0;
+}

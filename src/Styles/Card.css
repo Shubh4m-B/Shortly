@@ -1,0 +1,33 @@
+.Card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 20px;
+  height: 200px;
+  max-width: 300px;
+}
+
+.Card-content {
+  width: 100%;
+  height: 100%;
+  transform: translateY(-80px);
+}
+
+.Card-img {
+  background-color: #3b3054;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 40px 0;
+}
+
+.Card-title {
+  color: #34313d;
+}
+
+.Card-text {
+  color: #919191;
+}

@@ -1,7 +1,9 @@
 .Main {
   display: flex;
-  justify-content: center;
-  /* align-items: center; */
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   background-color: #eff1f7;
+  margin-top: 100px;
 }
