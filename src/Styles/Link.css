@@ -32,3 +32,8 @@
 .Link-short > button:hover {
   background-color: #5ff3f3;
 }
+
+#Copied,
+#Copied:hover {
+  background-color: #3b3054;
+}
