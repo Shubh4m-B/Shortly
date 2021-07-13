@@ -20,7 +20,8 @@ const SubFoot = styled.div`
         height:100%;
         width:100%;
         background-image: url("/images/bg-boost-desktop.svg");
-        background-size: 110%;
+        background-size: 130%;
+        background-position: center;
     }
 
     button {
@@ -46,7 +47,7 @@ const SubFoot = styled.div`
     @media screen and (max-width: 750px) {
         .SubFooter {
             background-image: url("/images/bg-boost-mobile.svg");
-            background-size: 120%;
+            background-size: 110%;
             text-align: center;
             height: 40vh;
         }
