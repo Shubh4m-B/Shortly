@@ -17,7 +17,7 @@ const SubFoot = styled.div`
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height:100%;
+        height:30vh;
         width:100%;
         background-image: url("/images/bg-boost-desktop.svg");
         background-size: 130%;
