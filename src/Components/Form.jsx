@@ -30,7 +30,7 @@ export default function Form() {
             <div className="Form" style={{ backgroundImage: "url(/images/bg-shorten-desktop.svg)" }}>
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Shorten a link here ... " value={link} onChange={handleChange} />
-                    <button type="submit">Shorten It!</button>
+                    <button type="submit" className="Submit" >Shorten It!</button>
                 </form>
             </div>
             {links.map((link) => (
