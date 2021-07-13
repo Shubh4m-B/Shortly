@@ -16,7 +16,6 @@ export default function Form() {
         e.preventDefault();
         let url = `${BASE_URL}${link}`
         let res = await axios.get(url)
-        console.log(res);
         const newLink = {
             link: link,
             short: res.data.result.full_short_link
