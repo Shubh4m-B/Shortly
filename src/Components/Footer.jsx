@@ -1,9 +1,75 @@
 import React from 'react'
-import '../Styles/Footer.css'
+import styled from 'styled-components'
+// import '../Styles/Footer.css'
+
+const Foot = styled.div`
+    background: #232127;
+    padding: 3em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 35vh;
+
+    .container {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    li {
+        list-style: none;
+        padding: 0.7em;
+    }
+
+    a {
+        text-decoration: none;
+        color: #bfbfbf;
+        transition: all 0.3s ease-in-out;
+    }
+
+    a:hover {
+        color: #2acfcf;
+    }
+
+    .Footer-icons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 20%;
+        padding: 0.7em 0;
+    }
+
+    a > i {
+        font-size: 30px;
+    }
+
+    a > i:hover {
+        color: #2acfcf;
+    }
+
+    @media screen and (max-width: 750px) {
+        .container {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .Footer-section {
+            margin: 20px 0;
+        }
+        .Footer-icons {
+            width: 60%;
+            margin-top: 20px;
+        }
+    }
+
+`
 
 export default function Footer() {
     return (
-        <div className="Footer">
+        <Foot>
             <div className="container">
                 <div style={{ width: "25%" }}>
                     <h1>Shortly</h1>
@@ -34,6 +100,6 @@ export default function Footer() {
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-        </div>
+        </Foot>
     )
 }
