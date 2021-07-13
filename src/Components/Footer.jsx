@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-// import '../Styles/Footer.css'
 
 const Foot = styled.div`
     background: #232127;
